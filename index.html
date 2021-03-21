@@ -14,22 +14,7 @@
 <body>
 <a-scene  vr-mode-ui="enabled: false" arjs ="debugUIEnabled: false">
   <a-marker project='visAR' id='item' type='pattern' url='assets/patterns/letterA.patt'>
-    <a-box color="#ff0000" depth="1" height="1" width="1"  project='visAR'></a-box>
-  </a-marker>
-  <a-marker project='visAR' id='item' type='pattern' url='assets/patterns/letterB.patt'>
-    <a-box color="#ff6600" depth="1" height="1" width="1"  project='visAR'></a-box>
-  </a-marker>
-  <a-marker project='visAR' id='item' type='pattern' url='assets/patterns/letterC.patt'>
-    <a-box color="#ffff00" depth="1" height="1" width="1"  project='visAR'></a-box>
-  </a-marker>
-  <a-marker project='visAR' id='item' type='pattern' url='assets/patterns/letterD.patt'>
-    <a-box color="#33cc00" depth="1" height="1" width="1"  project='visAR'></a-box>
-  </a-marker>
-  <a-marker project='visAR' id='item' type='pattern' url='assets/patterns/letterF.patt'>
-    <a-box color="#3333ff" depth="1" height="1" width="1"  project='visAR'></a-box>
-  </a-marker>
-  <a-marker project='visAR' id='item' type='pattern' url='assets/patterns/letterG.patt'>
-    <a-box color="#993399" depth="1" height="1" width="1"  project='visAR'></a-box>
+    <a-gltf-model look-at="[camera]" id="item" project='visAR'  src = 'assets/models/CesiumMan.gltf'></a-gltf-model>
   </a-marker>
 
 <a-entity camera></a-entity>
