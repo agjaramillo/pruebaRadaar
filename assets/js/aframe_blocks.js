@@ -119,6 +119,15 @@ Blockly.defineBlocksWithJsonArray([
                     ["CesiumMan", 'assets/models/CesiumMan.gltf'],
                     ["Union Troop", 'assets/models/FinalUnion.glb'],
                     ["Confederate", 'assets/models/confTroop.glb'],
+		    ["Circle", 'assets/models/CIRCLE.glb'],
+			["Cube", 'assets/models/cube1.glb'],
+			["Rectangle", 'assets/models/rectangle2.glb'],
+			["Triangle", 'assets/models/triangle3.glb'],
+			["Rabbit", 'assets/models/Rabbit.glb'],
+			["Cow", 'assets/models/Cow.glb'],
+			["Lion1", 'assets/models/Lion1.glb'],
+			["Horse", 'assets/models/Horsem.glb'],
+			["Chicken", 'assets/models/Chicken.glb'],
                 ]
             }
         ],
